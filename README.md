@@ -2,9 +2,6 @@
 ```
 # Clone the repo
 
-# Move into the new directory
-cd nextjs-starter-dimension/
-
 # Install npm packages
 npm install
 
