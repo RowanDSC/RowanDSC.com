@@ -6,6 +6,9 @@ import Header from "../components/Header"
 import Main from "../components/Main"
 import Footer from "../components/Footer"
 
+import { Amplify, withSSRContext } from "aws-amplify";
+const { Auth, API } = withSSRContext();
+
 class IndexPage extends React.Component {
     constructor(props) {
         super(props)
@@ -100,3 +103,6 @@ class IndexPage extends React.Component {
 }
 
 export default IndexPage
+export const getServerSideProps = async context => {
+    const { Auth, API } = withSSRContext(context);
+}
