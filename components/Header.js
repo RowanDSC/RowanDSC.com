@@ -130,6 +130,10 @@ const Header = (props) => (
           <p><b>Elena Vilceanu: </b>
           DSC Marketting and Media Manager. Pursuing Masters in Computer Science and Bachelors in Mathematics. Elena is interested in all complex algorithms and 
           puzzles. In her free time she works on number games such as Sudoku, Kakuro, and Solitaire. vilcea55@students.rowan.edu</p>
+          <p><b>Evan Pearce</b>
+          DSC Technical Advisor. Pursuing Bachelors in Computer Science and minoring in Mathematics. Evan has experience developing software from years of development with 
+          companies and on personal projects. Along with experience, his skill inventory provides insight on how to tackle challenges the club is facing.
+          </p>
 
           <p>Interested in being an officer? We are always looking for dedicated members. Email the DSC Lead directly with a paragraph describing yourself, and why
             you think you would be a good fit for an officer position. Feel free to attach supporting documents, and thank you for expressing interst in Google
