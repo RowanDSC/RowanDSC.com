@@ -84,7 +84,8 @@ const Header = (props) => (
               <p> <a href = "https://forms.gle/kRQP5FytftWYvf139"><b>RSVP</b></a></p>
               <p>Also check out the <a href = "https://dsc.community.dev/rowan-university/"> events platform</a> Google provided.</p>
             </div>
-           <div style={{display:"flex"}}>
+          </div>
+          <div style={{display:"flex"}}>
             <span className="image main"><img src="/static/images/lin.png" alt="" /></span>
             <div style={{paddingLeft:"3em"}}>
               <p><b>LinkedIn Workshop: </b>
@@ -94,7 +95,6 @@ const Header = (props) => (
               to learn how you can leverage LinkedIn to start your career.</p>
               <p> <a href = "https://dsc.community.dev/accounts/dashboard/#/chapter-541/event-579/manage"><b>Community Platform Link</b></a></p>
             </div>
-          </div>
           </div>
           </Article>
 
