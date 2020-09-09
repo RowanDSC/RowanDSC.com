@@ -5,6 +5,7 @@ import faFacebook from '@fortawesome/fontawesome-free-brands/faFacebook'
 import faInstagram from '@fortawesome/fontawesome-free-brands/faInstagram'
 import faGithub from '@fortawesome/fontawesome-free-brands/faGithub'
 import faDiscord from '@fortawesome/fontawesome-free-brands/faDiscord'
+import faSlack from '@fortawesome/fontawesome-free-brands/faSlack'
 import Article from './Article';
 
  
@@ -27,6 +28,9 @@ const Header = (props) => (
                 <ul className="icons">
                 <li><a href="https://github.com/RowanDSC">
                   <FontAwesomeIcon icon={faGithub} />
+                </a></li>
+                <li><a href="https://join.slack.com/t/googledevelop-oih8294/shared_invite/zt-hb33ca1w-APyPF1YmKnHwSNFiFFRD7g">
+                  <FontAwesomeIcon icon={faSlack} />
                 </a></li>
                 <li><a href="https://discord.gg/uTVcDSv">
                   <FontAwesomeIcon icon={faDiscord} />
@@ -84,9 +88,9 @@ const Header = (props) => (
           </Article>
 
           <Article title={"Get Involved"} articleId={"get_involved"}>
-          <p>Looking to get involved? First of all, check out our next event and RSVP. Second, join our discord and follow our social media (links below). Finally, 
+          <p>Looking to get involved? First of all, check out our next event and RSVP. Second, join our slack/discord and follow our social media (links below). Finally, 
             if you're interested in this club, odds are you're very passionate about what you do; tell us a little bit about yourself in the ice breakers section
-            of the discord.
+            of the slack/discord.
           </p>
           <p>Want to contribute? Check out our GitHub and let us know what you think.
           </p>
@@ -94,6 +98,9 @@ const Header = (props) => (
             <li><a href="https://github.com/RowanDSC">
               <FontAwesomeIcon icon={faGithub} />
             </a></li>
+            <li><a href="https://join.slack.com/t/googledevelop-oih8294/shared_invite/zt-hb33ca1w-APyPF1YmKnHwSNFiFFRD7g">
+                  <FontAwesomeIcon icon={faSlack} />
+                </a></li>
             <li><a href="https://discord.gg/uTVcDSv">
               <FontAwesomeIcon icon={faDiscord} />
             </a></li>
