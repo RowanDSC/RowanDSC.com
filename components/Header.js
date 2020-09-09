@@ -84,6 +84,17 @@ const Header = (props) => (
               <p> <a href = "https://forms.gle/kRQP5FytftWYvf139"><b>RSVP</b></a></p>
               <p>Also check out the <a href = "https://dsc.community.dev/rowan-university/"> events platform</a> Google provided.</p>
             </div>
+           <div style={{display:"flex"}}>
+            <span className="image main"><img src="/static/images/lin.png" alt="" /></span>
+            <div style={{paddingLeft:"3em"}}>
+              <p><b>LinkedIn Workshop: </b>
+               This event will be hosted on<a href = "https://youtu.be/veWWDAo-B2c"> YouTube Livestream. </a> 
+               An event in partnership with another DSC Lead. Come watch Mehmet Sever, 
+               DSC Lead at Lambton College Toronto and LinkedIn Learning Student Ambassador
+              to learn how you can leverage LinkedIn to start your career.</p>
+              <p> <a href = "https://dsc.community.dev/accounts/dashboard/#/chapter-541/event-579/manage"><b>Community Platform Link</b></a></p>
+            </div>
+          </div>
           </div>
           </Article>
 
