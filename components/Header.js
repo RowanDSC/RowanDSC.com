@@ -136,7 +136,7 @@ const Header = (props) => (
           </p>
 
           <p>Interested in being an officer? We are always looking for dedicated members. Email the DSC Lead directly with a paragraph describing yourself, and why
-            you think you would be a good fit for an officer position. Feel free to attach supporting documents, and thank you for expressing interst in Google
+            you think you would be a good fit for an officer position. Feel free to attach supporting documents, and thank you for expressing interest in Google
             Developer Student Clubs.
           </p>
           </div>
